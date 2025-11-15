@@ -1,0 +1,38 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Dev Tools Center Logo</title>
+  <desc id="desc">Stylized DTC monogram inside a gradient cube frame with nodal accents.</desc>
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3C83F7" />
+      <stop offset="45%" stop-color="#8051FF" />
+      <stop offset="100%" stop-color="#00D4FF" />
+    </linearGradient>
+    <linearGradient id="accent-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FBFF" />
+      <stop offset="100%" stop-color="#E0EAFF" stop-opacity="0.8" />
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-opacity="0.2" />
+    </filter>
+  </defs>
+  <rect x="48" y="48" width="416" height="416" rx="72" fill="url(#bg-gradient)" filter="url(#shadow)" />
+  <path d="M174 160v192c0 18.2 14.8 33 33 33h38c60.6 0 110-49.4 110-110v-38c0-60.6-49.4-110-110-110h-38c-18.2 0-33 14.8-33 33z" fill="none" stroke="url(#accent-gradient)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M256 160h108" stroke="#F2F6FF" stroke-width="26" stroke-linecap="round" />
+  <path d="M310 160v192" stroke="#F2F6FF" stroke-width="26" stroke-linecap="round" />
+  <path d="M342 256c0 48.6-39.4 88-88 88h-32" stroke="#FDFEFF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <g fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="18" stroke-linecap="round">
+    <path d="M168 140l-34-34" />
+    <path d="M344 372l34 34" />
+  </g>
+  <g fill="#10121C">
+    <circle cx="148" cy="120" r="12" fill="#9EE5FF" />
+    <circle cx="368" cy="392" r="10" fill="#F4F0FF" />
+  </g>
+  <g fill="none" stroke="#A9C7FF" stroke-width="10" stroke-linecap="round">
+    <path d="M172 368h52" />
+    <path d="M172 320h64" stroke-dasharray="18 16" />
+    <path d="M172 208h44" stroke-dasharray="10 12" />
+  </g>
+  <circle cx="400" cy="188" r="18" fill="#FFFFFF" fill-opacity="0.85" />
+  <rect x="368" y="156" width="64" height="64" rx="20" fill="none" stroke="#C7DAFF" stroke-width="12" stroke-dasharray="16 14" />
+</svg>
